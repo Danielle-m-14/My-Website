@@ -1,0 +1,155 @@
+
+.container{
+    height:3,300px; 
+}
+
+header{
+    height:200px;
+    font-family:'Inconsolata', monospace;
+    font-size:12px;
+    background-color:#ff8f1a;  
+    background-size: cover;
+}
+
+#top-section{
+    height:700px;
+    text-align:center;
+    background: url('../img/orange.jpg');
+    background-size: cover;
+    background-position: top 60% right 0%;
+    font-family: 'Lobster', cursive;
+}
+
+#portfolio{
+    height:1350px;
+    background: url('../img/unsplash.jpg');
+    background-size: cover;
+    padding: 30px 0;
+}
+
+#about{
+   height:650px;
+}
+
+#contact{
+    height:300px;
+}
+
+footer{
+    height:100px;
+    clear:both;
+    text-align: center;
+    padding-top:50px;
+}
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+    float:left;
+}
+
+.third-width{
+    width: 400px;
+    float:left;
+}
+
+nav{
+    float:right;
+     padding: 75px 25px;
+     clear:both;
+    }
+
+#contact{
+    padding: 100px 0;
+    background: url('../img/gold-rain.jpg');
+    background-size: cover;
+    text-align:center;
+}
+
+#contact h4{
+    text-align:center;
+}
+
+#about{
+    padding: 80px 0;
+    background-color:white;
+}
+
+header h1{
+  padding: 65px 0 65px 25px;
+}
+
+#portfolio h4{
+    text-align:center;
+}
+
+#me-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+    height:240px;
+    float:right;
+    margin-right:50px;
+}
+
+#about h4{
+    text-align:center;
+}
+
+#top-section h2{
+      font-size:60px;
+}
+
+#top-section h3{
+    font-size:40px;
+}
+
+#portfolio h4{
+    padding:10px auto;
+}
+
+h4{
+font-family: 'Cardo', serif;
+font-size: 40px;
+}
+
+h5{
+font-family: 'Cardo', serif;
+font-size: 25px;
+}
+
+p{
+font-family: 'Cardo', serif;
+font-size: 18px;
+}
+
+#contact p{
+    color:white;
+}
+
+footer p{
+    color:hotpink;
+}
+
+#portfolio .full-width{
+    clear:both;
+}
+
+#portfolio .half-width{
+
+    margin:30px 0px 20px 0px;
+}
+
+#text-right{
+    text-align:right;
+    clear:both;
+    float:left;
+    padding-right:50px;
+}
+
+#portfolio .half-width h5{
+    padding-top:50px;
+}
