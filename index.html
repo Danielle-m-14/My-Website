@@ -1,7 +1,25 @@
+
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="">
     <head>
         <title>Danielle</title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <meta name="theme-color" content="#fafafa">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lobster&display=swap" rel="stylesheet">
@@ -13,7 +31,7 @@
         <header>
         <div class="content-wrapper">
             <div class="heading">
-            <h1>< Danielle Matalonis. Web Developer /></h1>
+            <h1> Danielle Matalonis / Web Developer </h1>
             </div>
             <nav>
                     <a href="#portfolio">portfolio</a>
@@ -38,12 +56,14 @@
            <h4>My Portfolio</h4>
        </div>
 
-        <div class="row">
-        <a href="https://danielle-m-14.github.io/Jubilee-Austen/"><img src="img/jubilee-thumbnail.png" alt="Jubilee-website"/></a>
-        <div class="row-description">
-        <h5>Jubilee Austen Project</h5>
-        <p>The very first website I've ever created! We were guided through this website using HTML and CSS</p>
-       </div>
+        <div class="row"> 
+          <div class="row-description">
+            <h5>Jubilee Austen Project</h5>
+            <p>The very first website I've ever created! We were guided through this website using HTML and CSS</p>
+          </div>
+          <figure>
+            <a href="https://danielle-m-14.github.io/Jubilee-Austen/"><img src="img/jubilee-thumbnail.png" alt="Jubilee-website"/></a>
+          </figure>
        </div>
 
         <div class="row">
@@ -52,10 +72,14 @@
         <p>The first website I built from scratch!<br>Given only a picture to go off of, I built this website with HTML and
             CSS</p>
         </div>    
+               <figure>
             <a href="https://danielle-m-14.github.io/Rogue/"><img src="img/rogue-pickings-thumbnail.png" alt="Rogue-Pickings-Website"/></a>
+               </figure>
         </div>
         <div class="row">
+            <figure>
         <a href="https://danielle-m-14.github.io/unplugged-retreat/"><img src="img/unplugged-thumb.png" alt="Unplugged-Retreat-Website"/></a>
+            </figure>
         <div class="row-description">
         <h5>Unplugged Resort Website</h5>
         <p>This is a fully-responsive website I built mobile-first. Feel free to test the different screen sizes of the website. There are also two more pages, About and FAQ, you can explore!</p>    
@@ -109,5 +133,18 @@
 </div>
 </footer>
 
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
     </body>
-</html>
+    
+    </html>
