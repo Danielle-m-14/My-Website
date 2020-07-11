@@ -137,7 +137,7 @@ header .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 90%;
     flex-direction: column;
 }
 
@@ -145,11 +145,11 @@ header .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-     flex-wrap: row wrap;
+  
 }
 
 .heading h1{
-    padding: 10px 0 10px 0px;
+    padding: 10px 10px 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,13 +161,13 @@ nav{
   justify-content: center;
   align-items: center;
   flex-wrap: row wrap;
-  padding: 5px 0 15px 0px;
+  padding: 5px 10 15px 10px;
   text-decoration: none;
   width: 100%;
 }
 
 nav a{
-    padding: 0 15px 0 15px;
+    padding: 0 15px 10px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,8 +186,12 @@ nav a{
     font-family: 'Lobster', cursive;
 }
 
+.top section .content-wrapper{
+    padding: 15px;
+}
+
 .top-section h2{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .top-section h3{
@@ -233,7 +237,7 @@ nav a{
     flex-direction: column;
     width: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 10px 0 10px 0;
 }
 
 .row-description{
@@ -241,13 +245,14 @@ nav a{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .row-description-two{
     flex-direction: column;
+    justify-content: center;
     width: 100%;
-    padding: 20px;
+    padding: 10px 10px 0 10px;
 }
 
 .row h5,
@@ -263,57 +268,95 @@ nav a{
 
 .row figure img{
     max-width: 340px;
-    padding: 0 10px 30px 10px;
+    padding: 0 10px 50px 10px;
 }
 
 /**ABOUT**/
 
 .about{
-    padding: 80px 0;
     background-color:white;
 }
 
-.about h4{
-    text-align:center;
+.about .content-wrapper{
+    padding: 20px;
+    width: 90%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#me-img {
-    margin-left: 25px;
-    border: 12px solid #ffffff;
-    height:240px;
-    float:right;
-    margin-right:50px;
+.about h4{
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.about-paragraph{
+    text-align: center;
+}
+
+.about figure{
+  display: flex;
+    justify-content: center;
+}
+
+.about img {
+    border-style: groove;
+    border-color: black;
+    border-width: 8px;
+    width: 70%;
+    max-width: 340px;
+    padding: 10px;
 }
 
 
 /**CONTACT**/
 
-#contact{
-    height:300px;
-}
-
-#contact{
-    padding: 100px 0;
+.contact{
     background: url('../img/gold-rain.jpg');
     background-size: cover;
-    text-align:center;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#contact h4{
-    text-align:center;
+.contact .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
 }
 
-#contact p{
+.contact h4{
+    text-align:center;
+    padding: 30px 0 20px 0;
+}
+
+.contact-info,
+.hire,
+.web,
+.meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0 40px 0;
+}
+
+.contact p,
+.contact h5{
     color:white;
+    margin: 0;
 }
 
 /**FOOTER**/
 
 footer{
-    height:100px;
-    clear:both;
     text-align: center;
-    padding-top:50px;
+    padding-top:10px;
 }
 
 footer p{
