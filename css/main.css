@@ -231,6 +231,7 @@ nav a{
     align-items: center;
     padding-bottom: 40px;
 }
+
 .row{
     display: flex;
     justify-content: center;
@@ -264,18 +265,31 @@ nav a{
 }
 
 .row h5{
-  margin: 0;
+    margin: 0;
+}
+
+.row figure {
+    display: flex;
+    justify-content: center;
+}
+
+.row a {
+    display: flex;
+    justify-content: center;
 }
 
 .row figure img{
-    max-width: 340px;
-    padding: 0 10px 50px 10px;
+    width: 100%;
+    padding: 0 10px 50px 10px; 
 }
 
 /**ABOUT**/
 
 #about{
     background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about .content-wrapper{
@@ -294,7 +308,11 @@ nav a{
 }
 
 .about-paragraph{
-    text-align: center;
+    text-align: left;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about figure{
@@ -306,8 +324,7 @@ nav a{
     border-style: groove;
     border-color: black;
     border-width: 8px;
-    width: 70%;
-    max-width: 340px;
+    width: 40%;
     padding: 10px;
     height: auto;
 }
@@ -346,6 +363,10 @@ nav a{
     align-items: center;
     flex-direction: column;
     padding: 30px 0 40px 0;
+}
+
+#contact h5 {
+    padding-bottom: 15px;
 }
 
 #contact p,
@@ -461,8 +482,48 @@ footer p{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width:768px) {
+  /*Tablet styles here*/
+
+  
+.top-section h3 br {
+  content:' ';
+}
+.top-section h3 br:after {
+  content:' ';
+}
+
+.row-description {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-description-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio p {
+    width: 80%;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hire,
+.web,
+.meet {
+    width: 31%;
+}
+
+
+
 }
 
 @media print,
