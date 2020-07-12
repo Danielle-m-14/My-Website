@@ -232,7 +232,7 @@ nav a{
     padding-bottom: 40px;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,15 +242,9 @@ nav a{
     padding: 10px 0 10px 0;
 }
 
-.row-description{
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding: 10px 10px 0 10px;
-}
-
+.row-description,
 .row-description-two{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -526,11 +520,56 @@ footer p{
 
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width:1200px) {
+  /*Desktop styles here*/
+
+
+header .content-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading,
+nav {
+    width: 40%;
+}
+
+.row {
+    flex-direction: row;
+    padding-bottom: 40px;
+
+}
+
+.row-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row-reverse;
+}
+
+.row-description,
+.row-description-two {
+    width: 35%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+#portfolio figure {
+    width: 50%;
+}
+
+#portfolio a {
+   width: 100%;
+}
+
+.about-content {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 }
 
 /* ==========================================================================
