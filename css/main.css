@@ -1,115 +1,93 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
-.container{
-    height:3,300px; 
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
-header{
-    height:200px;
-    font-family:'Inconsolata', monospace;
-    font-size:12px;
-    background-color:#ff8f1a;  
-    background-size: cover;
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
-#top-section{
-    height:700px;
-    text-align:center;
-    background: url('../img/orange.jpg');
-    background-size: cover;
-    background-position: top 60% right 0%;
-    font-family: 'Lobster', cursive;
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
-#portfolio{
-    height:1350px;
-    background: url('../img/unsplash.jpg');
-    background-size: cover;
-    padding: 30px 0;
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-#about{
-   height:650px;
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
 }
 
-#contact{
-    height:300px;
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
-footer{
-    height:100px;
-    clear:both;
-    text-align: center;
-    padding-top:50px;
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
 }
 
-.full-width{
-    width: 1200px;
-    margin: 0 auto;
-}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
 
-.half-width{
-    width: 600px;
-    float:left;
-}
-
-.third-width{
-    width: 400px;
-    float:left;
-}
-
-nav{
-    float:right;
-     padding: 75px 25px;
-     clear:both;
-    }
-
-#contact{
-    padding: 100px 0;
-    background: url('../img/gold-rain.jpg');
-    background-size: cover;
-    text-align:center;
-}
-
-#contact h4{
-    text-align:center;
-}
-
-#about{
-    padding: 80px 0;
-    background-color:white;
-}
-
-header h1{
-  padding: 65px 0 65px 25px;
-}
-
-#portfolio h4{
-    text-align:center;
-}
-
-#me-img {
-    margin-left: 25px;
-    border: 12px solid #ffffff;
-    height:240px;
-    float:right;
-    margin-right:50px;
-}
-
-#about h4{
-    text-align:center;
-}
-
-#top-section h2{
-      font-size:60px;
-}
-
-#top-section h3{
-    font-size:40px;
-}
-
-#portfolio h4{
-    padding:10px auto;
-}
+/**BASE STYLES**/
 
 h4{
 font-family: 'Cardo', serif;
@@ -126,30 +104,537 @@ font-family: 'Cardo', serif;
 font-size: 18px;
 }
 
-#contact p{
+.content-wrapper{
+  width: 100%;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+figure {
+ margin: 0;
+}
+
+/**HEADER**/
+
+header{
+    font-family:'Inconsolata', monospace;
+    font-size: 12px;
+    background-color:#ff8f1a;  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.heading h1{
+    padding: 10px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: row wrap;
+  padding: 5px 10 15px 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav a{
+    padding: 0 15px 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: yellow;
+    text-shadow: darkgrey;
+    font-size: 16px;
+}
+
+/**TOP SECTION**/
+
+.top-section{
+    text-align:center;
+    background: url('../img/orange.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lobster', cursive;
+}
+
+.top section .content-wrapper{
+    padding: 15px;
+}
+
+.top-section h2{
+    padding-top: 10px;
+}
+
+.top-section h3{
+    padding-bottom: 20px;
+}
+
+.top-section h2{
+      font-size:60px;
+}
+
+.top-section h3{
+    font-size:40px;
+}
+
+/**PORTFOLIO**/
+
+#portfolio{
+    background: url('../img/unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .content-wrapper{
+    padding-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.portfolio-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0 10px 0;
+}
+
+.row-description,
+.row-description-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 10px 0 10px;
+}
+
+.row h5,
+.row p{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.row h5{
+    margin: 0;
+}
+
+.row figure img{
+    width: 100%;
+    padding: 0 10px 50px 10px; 
+}
+
+/**ABOUT**/
+
+#about{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .content-wrapper{
+    padding: 20px;
+    width: 90%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about h4{
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-paragraph {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content figure {
+    display: inline;
+    text-align: center;
+}
+
+#about img {
+    border-style: groove;
+    border-color: black;
+    border-width: 8px;
+    width: 40%;
+    padding: 10px;
+    height: auto;
+}
+
+
+/**CONTACT**/
+
+#contact{
+    background: url('../img/gold-rain.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+#contact h4{
+    text-align:center;
+    padding: 30px 0 20px 0;
+}
+
+.contact-info,
+.hire,
+.web,
+.meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0 40px 0;
+}
+
+#contact h5 {
+    padding-bottom: 15px;
+}
+
+#contact p,
+#contact h5{
     color:white;
+    margin: 0;
+}
+
+.hire p{
+    text-decoration: none;
+}
+
+/**FOOTER**/
+
+footer{
+    text-align: center;
+    padding-top:10px;
 }
 
 footer p{
     color:hotpink;
 }
 
-#portfolio .full-width{
-    clear:both;
+
+/*END OF AUTHOR'S CUSTOM STYLES*/
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
 }
 
-#portfolio .half-width{
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
 
-    margin:30px 0px 20px 0px;
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
 }
 
-#text-right{
-    text-align:right;
-    clear:both;
-    float:left;
-    padding-right:50px;
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
 }
 
-#portfolio .half-width h5{
-    padding-top:50px;
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width:768px) {
+  /*Tablet styles here*/
+
+  
+.top-section h3 br {
+  content:' ';
+}
+.top-section h3 br:after {
+  content:' ';
+}
+
+.row-description {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-description-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio p {
+    width: 80%;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.hire,
+.web,
+.meet {
+    width: 31%;
+}
+
+
+
+}
+
+@media only screen and (min-width:1200px) {
+  /*Desktop styles here*/
+
+
+header .content-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading,
+nav {
+    width: 40%;
+}
+
+.row {
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.row-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row-reverse;
+}
+
+.row-description,
+.row-description-two {
+    width: 35%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+#portfolio figure {
+    width: 50%;
+}
+
+#portfolio a {
+    width: 100%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
