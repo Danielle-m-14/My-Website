@@ -263,15 +263,6 @@ nav a{
     margin: 0;
 }
 
-.row figure {
-    display: flex;
-    justify-content: center;
-}
-
-.row a {
-    display: flex;
-    justify-content: center;
-}
 
 .row figure img{
     width: 100%;
