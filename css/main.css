@@ -312,7 +312,9 @@ nav a{
 /**ABOUT**/
 
 #about{
-    background-color:white;
+    background: url(../img/heart-lights.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,9 +357,8 @@ nav a{
 /**CONTACT**/
 
 #contact{
-    background: url('../img/gold-rain.jpg');
+    background-color:#ff8f1a;  
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,6 +402,12 @@ nav a{
     text-decoration: none;
 }
 
+#contact .fab {
+    color: #4785C2;
+    font-size: 60px;
+}
+
+
 /**FOOTER**/
 
 footer{
@@ -409,7 +416,7 @@ footer{
 }
 
 footer p{
-    color:hotpink;
+    color:#4785C2;
 }
 
 
