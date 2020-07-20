@@ -209,7 +209,8 @@ nav a{
 
 /**PORTFOLIO**/
 
-#portfolio{
+/* 
+ #portfolio{
     background: url('../img/unsplash.jpg');
     background-size: cover;
     background-position: center;
@@ -217,7 +218,7 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-
+*/
 
 #portfolio .content-wrapper{
     padding-bottom: 20px;
@@ -232,6 +233,46 @@ nav a{
     align-items: center;
     padding-bottom: 40px;
 }
+
+
+
+/*beginning of opacity code*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#portfolio { 
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-image: url('../img/unsplash.jpg');
+  //background-size: cover;
+  //opacity: 0.75;
+  
+  &::before {  
+      content: "";
+      background-image: url('../img/unsplash.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+  }
+}
+
+
+
+
+/*end of opacity code*/
+
+
+
 
 .row {
     display: flex;
@@ -262,7 +303,6 @@ nav a{
 .row h5{
     margin: 0;
 }
-
 
 .row figure img{
     width: 100%;
