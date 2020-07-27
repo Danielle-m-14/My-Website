@@ -91,17 +91,17 @@ textarea {
 
 h4{
 font-family: 'Cardo', serif;
-font-size: 40px;
+font-size: 45px;
 }
 
 h5{
 font-family: 'Cardo', serif;
-font-size: 25px;
+font-size: 35px;
 }
 
 p{
 font-family: 'Cardo', serif;
-font-size: 18px;
+font-size: 25px;
 }
 
 .content-wrapper{
@@ -119,6 +119,12 @@ html,body
 
 figure {
  margin: 0;
+}
+
+.section-divider {
+   height: 25px;
+   width: 100%;
+   background-color: white;
 }
 
 /**HEADER**/
@@ -174,7 +180,7 @@ nav a{
     text-decoration: none;
     color: yellow;
     text-shadow: darkgrey;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /**TOP SECTION**/
@@ -185,31 +191,33 @@ nav a{
     background-size: cover;
     background-position: center;
     font-family: 'Lobster', cursive;
+    text-shadow: 5px 5px blue;
 }
 
-.top section .content-wrapper{
+.top-section .content-wrapper{
     padding: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .top-section h2{
     padding-top: 10px;
+    margin: 0;
+    font-size:65px;
 }
 
 .top-section h3{
     padding-bottom: 20px;
+    font-size:45px;
+    margin: 0;
 }
 
-.top-section h2{
-      font-size:60px;
-}
-
-.top-section h3{
-    font-size:40px;
-}
 
 /**PORTFOLIO**/
 
-/* 
+
  #portfolio{
     background: url('../img/unsplash.jpg');
     background-size: cover;
@@ -218,7 +226,6 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-*/
 
 #portfolio .content-wrapper{
     padding-bottom: 20px;
@@ -234,10 +241,9 @@ nav a{
     padding-bottom: 40px;
 }
 
-
-
 /*beginning of opacity code*/
 
+/*
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -263,16 +269,13 @@ nav a{
       opacity: 0.5;
   }
 }
-
-
-
+*/
 
 /*end of opacity code*/
 
 
-
-
-.row {
+.row,
+.row-two{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,6 +284,7 @@ nav a{
     margin: 0px;
     padding: 10px 0 10px 0;
 }
+
 
 .row-description,
 .row-description-two{
@@ -292,17 +296,21 @@ nav a{
 }
 
 .row h5,
-.row p{
+.row-two h5,
+.row p,
+.row-two p{
    display: flex;
    justify-content: center;
    align-items: center; 
 }
 
-.row h5{
+.row h5,
+.row-two h5{
     margin: 0;
 }
 
-.row figure img{
+.row figure img,
+.row-two figure img{
     width: 100%;
     padding: 0 10px 50px 10px; 
 }
@@ -310,7 +318,7 @@ nav a{
 /**ABOUT**/
 
 #about{
-    background: url(../img/heart-lights.jpg);
+    background: url(https://bestanimations.com/Signs&Shapes/Hearts/manyhearts/pretty-fireworks-turn-to-hearts-animation-gif.gif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -331,26 +339,36 @@ nav a{
 #about h4{
     text-align: center;
     margin: 30px 0 20px 0;
+    color: white;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .about-paragraph{
     text-align: left;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
-
 #about img {
-    border-style: groove;
-    border-color: black;
+    border-style: outset;
+    border-color:white;
     border-width: 8px;
     width: 40%;
     padding: 10px;
     height: auto;
 }
 
+#about figure {
+    text-align: center;
+}
 
 /**CONTACT**/
 
@@ -512,7 +530,11 @@ footer p{
 @media only screen and (min-width:768px) {
   /*Tablet styles here*/
 
-  
+
+h1, h2, h3, h4, h5, p, a {
+font-size: 2em;
+}
+
 .top-section h3 br {
   content:' ';
 }
@@ -520,14 +542,9 @@ footer p{
   content:' ';
 }
 
-.row-description {
-     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+.row-description 
 .row-description-two {
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -556,6 +573,9 @@ footer p{
 @media only screen and (min-width:1200px) {
   /*Desktop styles here*/
 
+h1, h2, h3, h4, h5, p, a {
+    font-size: 2em;
+}
 
 header .content-wrapper {
     flex-direction: row;
@@ -567,10 +587,14 @@ nav {
     width: 40%;
 }
 
-.row {
+.top-section {
+    min-height: 900px;
+}
+
+.row,
+.row-two {
     flex-direction: row;
     padding-bottom: 40px;
-
 }
 
 .row-two {
@@ -597,7 +621,7 @@ nav {
 }
 
 .about-content {
-  display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
