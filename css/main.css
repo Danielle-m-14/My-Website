@@ -241,39 +241,6 @@ nav a{
     padding-bottom: 40px;
 }
 
-/*beginning of opacity code*/
-
-/*
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-#portfolio { 
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //background-image: url('../img/unsplash.jpg');
-  //background-size: cover;
-  //opacity: 0.75;
-  
-  &::before {  
-      content: "";
-      background-image: url('../img/unsplash.jpg');
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.5;
-  }
-}
-*/
-
-/*end of opacity code*/
-
-
 .row,
 .row-two{
     display: flex;
@@ -318,7 +285,7 @@ nav a{
 /**ABOUT**/
 
 #about{
-    background: url(https://bestanimations.com/Signs&Shapes/Hearts/manyhearts/pretty-fireworks-turn-to-hearts-animation-gif.gif);
+    background: url(https://i.pinimg.com/736x/6d/b7/09/6db7093c23349bd9053c0b62b81b8fc3.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -354,7 +321,14 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    background-color: rgba(255,255,255,.6);
+    border: 1px solid black;
+    border-radius: 15px 50px;
+}
+
+.about-paragraph p {
+  margin: 5%;
+  color: #000000;
 }
 
 #about img {
@@ -364,6 +338,7 @@ nav a{
     width: 40%;
     padding: 10px;
     height: auto;
+    border-radius: 50px 15px;
 }
 
 #about figure {
