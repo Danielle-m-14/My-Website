@@ -108,8 +108,7 @@ font-size: 25px;
   width: 100%;
 }
 
-html,body
-{
+html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -160,6 +159,7 @@ header .content-wrapper{
     justify-content: center;
     align-items: center;
     width: 100%;
+     text-shadow: 1px 1px yellow;
 }
 
 nav{
@@ -181,6 +181,7 @@ nav a{
     color: yellow;
     text-shadow: darkgrey;
     font-size: 20px;
+    text-shadow: 2px 2px black;
 }
 
 /**TOP SECTION**/
@@ -191,27 +192,26 @@ nav a{
     background-size: cover;
     background-position: center;
     font-family: 'Lobster', cursive;
-    text-shadow: 5px 5px blue;
-}
-
-.top-section .content-wrapper{
-    padding: 15px;
-    height: 100%;
+    text-shadow: 5px 5px black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
+    min-height: 400px;
+    color: yellow;
 }
 
 .top-section h2{
-    padding-top: 10px;
+    padding: 5px 0 90px 0;
     margin: 0;
     font-size:65px;
+    height: 50%;
 }
 
 .top-section h3{
-    padding-bottom: 20px;
+    padding: 90px 0 10px 0;
     font-size:45px;
     margin: 0;
+    height: 50%;
 }
 
 
@@ -585,10 +585,6 @@ header .content-wrapper {
 .heading,
 nav {
     width: 40%;
-}
-
-.top-section {
-    min-height: 900px;
 }
 
 .row,
