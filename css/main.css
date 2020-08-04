@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Grand Hotel', cursive;
 }
 
 /*
@@ -90,17 +91,17 @@ textarea {
 /**BASE STYLES**/
 
 h4{
-font-family: 'Cardo', serif;
-font-size: 45px;
+font-family:'Grand Hotel', cursive;
+font-size: 50px;
 }
 
 h5{
-font-family: 'Cardo', serif;
+font-family: 'Grand Hotel', cursive;
 font-size: 35px;
 }
 
 p{
-font-family: 'Cardo', serif;
+font-family: 'Grand Hotel', cursive;
 font-size: 25px;
 }
 
@@ -179,7 +180,6 @@ nav a{
     align-items: center;
     text-decoration: none;
     color: yellow;
-    text-shadow: darkgrey;
     font-size: 20px;
     text-shadow: 2px 2px black;
 }
@@ -348,7 +348,7 @@ nav a{
 /**CONTACT**/
 
 #contact{
-    background-color:#ff8f1a;  
+    background-color:#1676C0;  
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -394,8 +394,9 @@ nav a{
 }
 
 #contact .fab {
-    color: #4785C2;
+    color: yellow;
     font-size: 60px;
+      text-shadow: 3px 3px black;
 }
 
 
@@ -507,7 +508,7 @@ footer p{
 
 
 h1, h2, h3, h4, h5, p, a {
-font-size: 2em;
+
 }
 
 .top-section h3 br {
@@ -549,7 +550,7 @@ font-size: 2em;
   /*Desktop styles here*/
 
 h1, h2, h3, h4, h5, p, a {
-    font-size: 2em;
+    
 }
 
 header .content-wrapper {
