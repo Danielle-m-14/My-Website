@@ -256,7 +256,6 @@ nav a{
     padding: 10px 0 10px 0;
 }
 
-
 .row-description,
 .row-description-two{
     display: flex;
@@ -264,6 +263,7 @@ nav a{
     justify-content: center;
     width: 100%;
     padding: 10px 10px 0 10px;
+    text-align: justify;
 }
 
 .row h5,
@@ -524,15 +524,12 @@ h1, h2, h3, h4, h5, p, a {
   content:' ';
 }
 
-.row-description 
+.row-description, 
 .row-description-two {
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#portfolio p {
-    width: 80%;
+    text-align: justify;
 }
 
 .contact-info {
@@ -550,7 +547,8 @@ h1, h2, h3, h4, h5, p, a {
 
 
 
-}
+} /* don't delete */
+
 
 @media only screen and (min-width:1200px) {
   /*Desktop styles here*/
@@ -569,25 +567,25 @@ nav {
     width: 40%;
 }
 
-.row,
-.row-two {
+.row {
+    margin-bottom: 40px;
+    display: flex;
     flex-direction: row;
-    padding-bottom: 40px;
+    justify-content: space-around;
 }
 
 .row-two {
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; 
     flex-direction: row-reverse;
+    margin-bottom: 40px;
 }
 
 .row-description,
 .row-description-two {
     width: 35%;
     height: 100%;
-    justify-content: flex-start;
 }
 
 #portfolio figure {
@@ -605,7 +603,7 @@ nav {
 }
 
 
-}
+} /* don't delete */
 
 /* ==========================================================================
    Print styles.
