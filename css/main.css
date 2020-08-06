@@ -127,6 +127,10 @@ figure {
    background-color: white;
 }
 
+.work-content-wrapper {
+    padding: 20px;
+}
+
 /**HEADER**/
 
 header{
