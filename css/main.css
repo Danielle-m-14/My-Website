@@ -101,7 +101,7 @@ font-size: 35px;
 }
 
 p{
-font-family: 'Grand Hotel', cursive;
+font-family: 'Inconsolata', monospace;
 font-size: 25px;
 }
 
@@ -404,11 +404,13 @@ nav a{
 
 footer{
     text-align: center;
-    padding-top:10px;
+    max-height: 15%;
 }
 
 footer p{
     color:#4785C2;
+    font-family: 'Grand Hotel', cursive;
+    margin: 10px 0;
 }
 
 
