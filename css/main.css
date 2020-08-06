@@ -310,7 +310,8 @@ nav a{
 #about h4{
     text-align: center;
     margin: 30px 0 20px 0;
-    color: white;
+    color: yellow;
+    text-shadow: 3px 2px black;
 }
 
 .about-content {
@@ -320,19 +321,27 @@ nav a{
 }
 
 .about-paragraph{
-    text-align: left;
+    text-align: justify;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     background-color: rgba(255,255,255,.6);
     border: 1px solid black;
     border-radius: 15px 50px;
+    border-width: 3px;
+    margin-bottom: 5%;
 }
 
 .about-paragraph p {
   margin: 5%;
   color: #000000;
+}
+
+.about-paragraph p span {
+    font-weight: bolder;
+}
+
+#about li {
+    font-size: 20px;
 }
 
 #about img {
@@ -370,6 +379,8 @@ nav a{
 #contact h4{
     text-align:center;
     padding: 30px 0 20px 0;
+    text-shadow: 3px 3px black;
+    color: yellow;
 }
 
 .contact-info,
@@ -385,6 +396,7 @@ nav a{
 
 #contact h5 {
     padding-bottom: 15px;
+    text-shadow: 2px 2px #ff8f1a;
 }
 
 #contact p,
