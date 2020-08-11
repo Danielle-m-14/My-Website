@@ -155,7 +155,6 @@ header .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
 
 .heading h1{
@@ -164,8 +163,10 @@ header .content-wrapper{
     justify-content: center;
     align-items: center;
     width: 100%;
-     text-shadow: 1px 1px yellow;
+    text-shadow: 1px 1px yellow;
+    text-align: center;
 }
+
 
 nav{
   display: flex;
@@ -181,10 +182,11 @@ nav a{
     justify-content: space-around;
     align-items: center;
     color: yellow;
-    font-size: 20px;
+    font-size: 13px;
     text-shadow: 2px 2px black;
     text-decoration: none;
-    width: 20%;
+    width: 19%;
+    margin: 3%;
 }
 
 /**TOP SECTION**/
@@ -262,7 +264,7 @@ nav a{
     justify-content: center;
     width: 100%;
     padding: 10px 10px 0 10px;
-    text-align: justify;
+    text-align: left;
 }
 
 .row h5,
@@ -279,10 +281,17 @@ nav a{
     margin: 0;
 }
 
+.row figure a,
+.row-two figure a{
+    text-align: center;
+}
+
 .row figure img,
 .row-two figure img{
     width: 100%;
     padding: 0 10px 50px 10px; 
+    text-align: center;
+    padding: 0;
 }
 
 /**ABOUT**/
@@ -340,7 +349,8 @@ nav a{
 }
 
 #about li {
-    font-size: 20px;
+    font-size: 25px;
+
 }
 
 #about img {
@@ -411,7 +421,7 @@ nav a{
 #contact .fab {
     color: yellow;
     font-size: 60px;
-      text-shadow: 3px 3px black;
+    text-shadow: 3px 3px black;
 }
 
 
@@ -426,6 +436,7 @@ footer p{
     color:#4785C2;
     font-family: 'Grand Hotel', cursive;
     margin: 10px 0;
+    font-size: 15px;
 }
 
 
@@ -528,6 +539,10 @@ h1, h2, h3, h4, h5, p, a {
 
 }
 
+.heading .mobile-break {
+    display: none;
+}
+
 .top-section h3 br {
   content:' ';
 }
@@ -566,6 +581,10 @@ h1, h2, h3, h4, h5, p, a {
 
 h1, h2, h3, h4, h5, p, a {
     
+}
+
+.heading .mobile-break {
+    display: none;
 }
 
 header .content-wrapper {
