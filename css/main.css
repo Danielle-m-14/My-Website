@@ -279,11 +279,6 @@ nav a{
     margin: 0;
 }
 
-.row figure a,
-.row-two figure a{
-    text-align: center;
-}
-
 .row figure img,
 .row-two figure img{
     width: 100%;
@@ -327,7 +322,7 @@ nav a{
 }
 
 .about-paragraph{
-    text-align: justify;
+    text-align: left;
     width: 100%;
 
     background-color: rgba(255,255,255,.6);
@@ -558,7 +553,6 @@ header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
 }
 
 .contact-info {
