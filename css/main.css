@@ -167,12 +167,10 @@ header .content-wrapper{
     text-align: center;
 }
 
-
 nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: row wrap;
   margin: 5px 10px 15px 10px;
   width: 100%;
 }
@@ -541,6 +539,11 @@ h1, h2, h3, h4, h5, p, a {
 
 .heading .mobile-break {
     display: none;
+}
+
+header .content-wrapper {
+    display: flex;
+    justify-content: space-around;
 }
 
 .top-section h3 br {
