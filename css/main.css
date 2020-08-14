@@ -135,7 +135,6 @@ figure {
 
 header{
     font-family:'Inconsolata', monospace;
-    font-size: 12px;
     background-color:#ff8f1a;  
     background-size: cover;
     display: flex;
@@ -157,7 +156,7 @@ header .content-wrapper{
     align-items: center;
 }
 
-.heading h1{
+.heading h1 {
     padding: 10px 10px 0 10px;
     display: flex;
     justify-content: center;
@@ -167,24 +166,24 @@ header .content-wrapper{
     text-align: center;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: 5px 10px 15px 10px;
-  width: 100%;
+  width: 70%;
 }
 
-nav a{
+nav a {
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: yellow;
-    font-size: 13px;
+    font-size: 20px;
     text-shadow: 2px 2px black;
     text-decoration: none;
-    width: 19%;
-    margin: 3%;
+    margin: 10%;
 }
 
 /**TOP SECTION**/
@@ -544,6 +543,11 @@ h1, h2, h3, h4, h5, p, a {
 header .content-wrapper {
     display: flex;
     justify-content: space-around;
+}
+
+header nav {
+    flex-direction: row;
+    width: 60%;
 }
 
 .top-section h3 br {
