@@ -324,7 +324,6 @@ nav a{
 .about-paragraph{
     text-align: left;
     width: 100%;
-
     background-color: rgba(255,255,255,.6);
     border: 1px solid black;
     border-radius: 15px 50px;
@@ -343,14 +342,13 @@ nav a{
 
 #about li {
     font-size: 25px;
-
 }
 
 #about img {
     border-style: outset;
     border-color:white;
     border-width: 8px;
-    width: 40%;
+    width: 50%;
     padding: 10px;
     height: auto;
     border-radius: 50px 15px;
@@ -638,6 +636,14 @@ nav {
     justify-content: space-around;
 }
 
+.about-paragraph {
+    width: 50%;
+}
+
+#about figure {
+  display: flex;
+    align-items: center;
+}
 
 } /* don't delete */
 
