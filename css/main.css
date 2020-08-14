@@ -592,7 +592,11 @@ header .content-wrapper {
 
 .heading,
 nav {
-    width: 50%;
+    width: 40%;
+}
+
+.heading h1 {
+    display: inline;
 }
 
 .row {
