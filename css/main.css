@@ -431,13 +431,14 @@ footer p{
 
 /**RESUME PAGE**/
 
-.work-content-wrapper {
+/* .work-content-wrapper {
   width: 90%;
   height: 90%;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
 }
 
 .work-content-wrapper iframe {
@@ -454,7 +455,7 @@ footer p{
     font-size: 15px;
     display: flex;
     justify-content: start;
-}
+} */
 
 
 /*END OF AUTHOR'S CUSTOM STYLES*/
