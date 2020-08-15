@@ -431,9 +431,29 @@ footer p{
 
 /**RESUME PAGE**/
 
-.work-content-wrapper h5 {
+.work-content-wrapper {
+  width: 90%;
+  height: 90%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-content-wrapper iframe {
+
+}
+.work-content-wrapper a {
+    display: flex;
+    justify-content: left;
+    width: 80%;
+}
+
+.work-content-wrapper p {
     text-decoration: none;
     font-size: 15px;
+    display: flex;
+    justify-content: start;
 }
 
 
