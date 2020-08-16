@@ -620,11 +620,20 @@ header .content-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .heading,
 nav {
     width: 40%;
+}
+
+nav {
+   justify-content: space-around;
+}
+
+nav a{
+    margin: 3%;  
 }
 
 .heading h1 {
@@ -663,7 +672,7 @@ nav {
 .about-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-paragraph {
@@ -673,6 +682,11 @@ nav {
 #about figure {
   display: flex;
     align-items: center;
+}
+
+#about img {
+    width: 80%;
+    margin-left: 26px;
 }
 
 #mobile-turn-message {
