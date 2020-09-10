@@ -418,6 +418,9 @@ nav a {
     text-shadow: 3px 3px black;
 }
 
+#socialBtn :hover {
+    font-size: 70px;
+}
 
 /**FOOTER**/
 
@@ -432,34 +435,6 @@ footer p{
     margin: 10px 0;
     font-size: 15px;
 }
-
-/**RESUME PAGE**/
-
-/* .work-content-wrapper {
-  width: 90%;
-  height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: auto;
-}
-
-.work-content-wrapper iframe {
-
-}
-.work-content-wrapper a {
-    display: flex;
-    justify-content: left;
-    width: 80%;
-}
-
-.work-content-wrapper a p {
-    text-decoration: none;
-    font-size: 15px;
-    display: flex;
-    justify-content: start;
-} */
 
 
 /*END OF AUTHOR'S CUSTOM STYLES*/
