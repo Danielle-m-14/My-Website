@@ -181,9 +181,13 @@ nav a {
     align-items: center;
     color: yellow;
     font-size: 20px;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 1px black;
     text-decoration: none;
     margin: 10%;
+}
+
+#navbtn:hover {
+    font-size: 35px;
 }
 
 /**TOP SECTION**/
