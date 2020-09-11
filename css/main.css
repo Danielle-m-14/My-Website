@@ -193,7 +193,6 @@ nav a {
 /**TOP SECTION**/
 
 .top-section{
-    text-align:center;
     background: url('../img/orange.jpg');
     background-size: cover;
     background-position: center;
@@ -201,25 +200,32 @@ nav a {
     text-shadow: 3px 3px yellow, 5px 5px orange, 7px 7px orangered, 9px 9px lightskyblue, 11px 11px darkblue;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     min-height: 480px;
     color: black;
-    margin: 5px, 10px, 5px, 10px; 
     width: 100%;
 }
 
+.top-section .content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
 .top-section h2{
-    padding: 0 0 90px 0;
-    margin: 4px, 5px, 0, 5px;
-    font-size: 70px;
-    height: 50%;
+    padding: 0 0 100px 0;
+    margin: 4px 5px 0 5px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .top-section h3{
     padding: 100px 0 10px 0;
-    font-size:50px;
-    margin: 0, 5px, 5px, 5px;
-    height: 50%;
+    margin: 0 5px 5px 5px;
+    text-align: center;
+    font-size: 20px;
 }
 
 
