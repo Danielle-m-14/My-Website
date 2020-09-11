@@ -167,12 +167,12 @@ header .content-wrapper {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 5px 10px 15px 10px;
-  width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 10px 15px 10px;
+    width: 70%;
 }
 
 nav a {
@@ -197,7 +197,7 @@ nav a {
     background-size: cover;
     background-position: center;
     font-family: 'Aladin', cursive;
-text-shadow: 3px 3px yellow, 6px 6px orange, 9px 9px orangered, 12px 12px lightseagreen, 15px 15px darkblue;
+    text-shadow: 3px 3px yellow, 6px 6px orange, 9px 9px orangered, 12px 12px lightseagreen, 15px 15px darkblue;
     display: flex;
     justify-content: center;
     min-height: 480px;
@@ -216,16 +216,16 @@ text-shadow: 3px 3px yellow, 6px 6px orange, 9px 9px orangered, 12px 12px lights
     padding: 0 0 100px 0;
     margin: 4px 5px 0 5px;
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
     display: flex;
     justify-content: center;
 }
 
 .top-section h3{
-    padding: 100px 0 10px 0;
+    padding: 145px 0 10px 0;
     margin: 0 5px 5px 5px;
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 
