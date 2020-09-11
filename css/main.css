@@ -196,8 +196,8 @@ nav a {
     background: url('../img/orange.jpg');
     background-size: cover;
     background-position: center;
-    font-family: 'Plaster', cursive;
-    text-shadow: 3px 3px yellow, 5px 5px orange, 7px 7px orangered, 9px 9px lightskyblue, 11px 11px darkblue;
+    font-family: 'Aladin', cursive;
+text-shadow: 3px 3px yellow, 6px 6px orange, 9px 9px orangered, 12px 12px lightseagreen, 15px 15px darkblue;
     display: flex;
     justify-content: center;
     min-height: 480px;
@@ -636,6 +636,14 @@ nav a{
 
 .heading h1 {
     display: inline;
+}
+
+.top-section h2 {
+    font-size: 80px;
+}
+
+.top-section h3 {
+    font-size: 60px;
 }
 
 .row {
