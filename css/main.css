@@ -603,7 +603,7 @@ header nav {
 } /* don't delete */
 
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1150px) {
   /*Desktop styles here*/
 
 h1, h2, h3, h4, h5, p, a {
