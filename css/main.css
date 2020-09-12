@@ -416,7 +416,8 @@ nav a {
     margin: 0;
 }
 
-.hire p{
+.hire p,
+.hire a {
     text-decoration: none;
 }
 
@@ -630,7 +631,7 @@ nav {
    justify-content: space-around;
 }
 
-nav a{
+nav a {
     margin: 3%;  
 }
 
