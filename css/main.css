@@ -187,8 +187,8 @@ nav a {
   margin: 10%;
 }
 
-#navbtn:hover {
-  font-size: 35px;
+.navbtn:hover {
+  -webkit-transform: scale(1.2);
 }
 
 /**TOP SECTION**/
@@ -428,7 +428,7 @@ nav a {
 }
 
 #socialBtn :hover {
-  font-size: 70px;
+  -webkit-transform: scale(1.2);
 }
 
 /**FOOTER**/
