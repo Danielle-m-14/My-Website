@@ -328,7 +328,7 @@ nav a {
 
 .about-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
@@ -368,6 +368,8 @@ nav a {
 #about figure {
   display: flex;
   justify-content: center;
+  text-align: center;
+  width: 50%;
 }
 
 /**CONTACT**/
