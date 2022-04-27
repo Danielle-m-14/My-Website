@@ -541,14 +541,7 @@ footer p {
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p,
-  a {
-  }
+
 
   .heading .mobile-break {
     display: none;
@@ -610,14 +603,6 @@ footer p {
 @media only screen and (min-width: 1150px) {
   /*Desktop styles here*/
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p,
-  a {
-  }
 
   .heading .mobile-break {
     display: inline;
