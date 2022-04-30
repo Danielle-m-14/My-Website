@@ -194,7 +194,7 @@ nav a {
 /**TOP SECTION**/
 
 .top-section {
-  background: url("../img/orange.jpg");
+  background-image: url(https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-size: cover;
   background-position: center;
   font-family: "Aladin", cursive;
@@ -233,7 +233,7 @@ nav a {
 /**PORTFOLIO**/
 
 #portfolio {
-  background: url("../img/unsplash.jpg");
+  background-image: url(https://images.unsplash.com/photo-1512998844734-cd2cca565822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1442&q=80);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -326,15 +326,8 @@ nav a {
   text-shadow: 3px 2px black;
 }
 
-.about-content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 .about-paragraph {
   text-align: left;
-  width: 100%;
   background-color: rgba(255, 255, 255, 0.6);
   border: 1px solid black;
   border-radius: 15px 50px;
@@ -359,18 +352,17 @@ nav a {
   border-style: outset;
   border-color: white;
   border-width: 8px;
-  max-width: 50%;
   padding: 10px;
   height: auto;
   border-radius: 50px 15px;
+  align-self: center; /*keeps image from stretching*/
+  max-width: 50%;
 }
 
-#about figure {
+ #about figure {
   display: flex;
   justify-content: center;
-  text-align: center;
-  width: 50%;
-}
+} 
 
 /**CONTACT**/
 
@@ -672,16 +664,11 @@ footer p {
   .about-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .about-paragraph {
-    width: 50%;
-  }
-
-  #about figure {
-    display: flex;
-    align-items: center;
+    width: 90%;
   }
 
   #about img {
