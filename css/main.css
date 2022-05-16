@@ -422,7 +422,7 @@ nav a {
   text-shadow: 3px 3px black;
 }
 
-#socialBtn :hover {
+.socialBtn :hover {
   -webkit-transform: scale(1.2);
 }
 
